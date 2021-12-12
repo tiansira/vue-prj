@@ -19,7 +19,12 @@ const routes = [
     path: '/2-2',
     name: 'axios请求方法',
     component: () => import('../views/2-2.vue')
-  }
+  },
+  // {
+  //   path: '/index',
+  //   name: 'index',
+  //   component: () => import('../views/index.vue')
+  // }
 ]
 
 const router = createRouter({
